@@ -1,0 +1,57 @@
+CRITICAL - 2022-01-01 18:14:49 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\bengkelin\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\bengkelin\system\Debug\Toolbar.php(497): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bengkelin\system\Debug\Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\bengkelin\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\bengkelin\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-01 20:53:16 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\bengkelin\app\Controllers\Antrian.php(41): count(NULL)
+#2 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(824): App\Controllers\Antrian->prosesPembayaran()
+#3 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#4 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-01 20:54:07 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\bengkelin\app\Controllers\Antrian.php(41): count(NULL)
+#2 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(824): App\Controllers\Antrian->prosesPembayaran()
+#3 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#4 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-01 20:56:18 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\bengkelin\app\Controllers\Antrian.php(41): count(NULL)
+#2 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(824): App\Controllers\Antrian->prosesPembayaran()
+#3 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#4 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-01 20:56:36 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\bengkelin\app\Controllers\Antrian.php(41): count(NULL)
+#2 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(824): App\Controllers\Antrian->prosesPembayaran()
+#3 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#4 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-01 20:56:38 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\bengkelin\app\Controllers\Antrian.php(41): count(NULL)
+#2 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(824): App\Controllers\Antrian->prosesPembayaran()
+#3 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#4 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-01 20:56:40 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\bengkelin\app\Controllers\Antrian.php(41): count(NULL)
+#2 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(824): App\Controllers\Antrian->prosesPembayaran()
+#3 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#4 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

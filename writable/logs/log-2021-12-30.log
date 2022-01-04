@@ -1,0 +1,158 @@
+CRITICAL - 2021-12-30 07:54:02 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\bengkelin\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\bengkelin\system\Debug\Toolbar.php(497): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bengkelin\system\Debug\Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\bengkelin\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\bengkelin\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-12-30 07:54:10 --> Unknown column 'namaMotor' in 'field list'
+CRITICAL - 2021-12-30 07:54:10 --> Unknown column 'namaMotor' in 'field list'
+#0 C:\xampp\htdocs\bengkelin\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\bengkelin\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\bengkelin\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\bengkelin\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\bengkelin\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\bengkelin\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\bengkelin\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\bengkelin\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\bengkelin\app\Controllers\Antrian.php(56): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(824): App\Controllers\Antrian->prosesPembayaran()
+#10 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#11 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-12-30 07:55:21 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\bengkelin\app\Controllers\Antrian.php(41): count(NULL)
+#2 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(824): App\Controllers\Antrian->prosesPembayaran()
+#3 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#4 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-30 07:56:51 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\bengkelin\app\Controllers\Antrian.php(41): count(NULL)
+#2 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(824): App\Controllers\Antrian->prosesPembayaran()
+#3 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#4 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-30 07:56:54 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\bengkelin\app\Controllers\Antrian.php(41): count(NULL)
+#2 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(824): App\Controllers\Antrian->prosesPembayaran()
+#3 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#4 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-12-30 09:24:26 --> Column 'password' cannot be null
+CRITICAL - 2021-12-30 09:24:26 --> Column 'password' cannot be null
+#0 C:\xampp\htdocs\bengkelin\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\bengkelin\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\bengkelin\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\bengkelin\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\bengkelin\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\bengkelin\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\bengkelin\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\bengkelin\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\bengkelin\app\Controllers\User.php(29): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(824): App\Controllers\User->tambah()
+#10 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-12-30 09:24:27 --> Column 'password' cannot be null
+CRITICAL - 2021-12-30 09:24:27 --> Column 'password' cannot be null
+#0 C:\xampp\htdocs\bengkelin\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\bengkelin\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\bengkelin\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\bengkelin\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\bengkelin\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\bengkelin\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\bengkelin\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\bengkelin\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\bengkelin\app\Controllers\User.php(29): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(824): App\Controllers\User->tambah()
+#10 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-12-30 21:20:10 --> Undefined index: idJasa
+#0 C:\xampp\htdocs\bengkelin\app\Controllers\Laporan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-30 21:23:30 --> Undefined index: idJasa
+#0 C:\xampp\htdocs\bengkelin\app\Controllers\Laporan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-30 21:23:48 --> Undefined index: idJasa
+#0 C:\xampp\htdocs\bengkelin\app\Controllers\Laporan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-30 21:25:07 --> Undefined variable: kumpulanId
+#0 C:\xampp\htdocs\bengkelin\app\Controllers\Laporan.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-30 21:25:25 --> Undefined variable: kumpulanId
+#0 C:\xampp\htdocs\bengkelin\app\Controllers\Laporan.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-30 21:25:32 --> Undefined index: idJasa
+#0 C:\xampp\htdocs\bengkelin\app\Controllers\Laporan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-30 21:25:45 --> Undefined variable: kumpulanId
+#0 C:\xampp\htdocs\bengkelin\app\Controllers\Laporan.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-30 22:21:40 --> Undefined offset: 5
+#0 C:\xampp\htdocs\bengkelin\app\Controllers\Laporan.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-30 22:21:50 --> Undefined offset: 5
+#0 C:\xampp\htdocs\bengkelin\app\Controllers\Laporan.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-30 22:24:27 --> Undefined offset: 5
+#0 C:\xampp\htdocs\bengkelin\app\Controllers\Laporan.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-30 22:24:53 --> Undefined offset: 5
+#0 C:\xampp\htdocs\bengkelin\app\Controllers\Laporan.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(824): App\Controllers\Laporan->dataBayar()
+#2 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

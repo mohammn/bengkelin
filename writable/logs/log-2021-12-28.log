@@ -1,0 +1,14 @@
+CRITICAL - 2021-12-28 00:27:22 --> Call to undefined method App\Models\JasaModel::upate
+#0 C:\xampp\htdocs\bengkelin\app\Controllers\Jasa.php(40): CodeIgniter\Model->__call('upate', Array)
+#1 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(824): App\Controllers\Jasa->hapus()
+#2 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jasa))
+#3 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-28 00:27:47 --> Call to undefined method App\Models\JasaModel::upate
+#0 C:\xampp\htdocs\bengkelin\app\Controllers\Jasa.php(40): CodeIgniter\Model->__call('upate', Array)
+#1 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(824): App\Controllers\Jasa->hapus()
+#2 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jasa))
+#3 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

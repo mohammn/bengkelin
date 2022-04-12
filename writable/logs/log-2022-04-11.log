@@ -250,3 +250,31 @@ CRITICAL - 2022-04-11 21:57:54 --> Table 'bengkelin.user' doesn't exist in engin
 #9 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #10 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
 #11 {main}
+ERROR - 2022-04-11 22:06:18 --> Table 'bengkelin.user' doesn't exist in engine
+CRITICAL - 2022-04-11 22:06:18 --> Table 'bengkelin.user' doesn't exist in engine
+#0 C:\xampp\htdocs\bengkelin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\bengkelin\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\bengkelin\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\bengkelin\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\bengkelin\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\bengkelin\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\bengkelin\app\Controllers\Login.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#8 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-11 22:06:20 --> Table 'bengkelin.user' doesn't exist in engine
+CRITICAL - 2022-04-11 22:06:20 --> Table 'bengkelin.user' doesn't exist in engine
+#0 C:\xampp\htdocs\bengkelin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\bengkelin\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\bengkelin\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\bengkelin\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\bengkelin\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\bengkelin\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\bengkelin\app\Controllers\Login.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#8 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\bengkelin\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

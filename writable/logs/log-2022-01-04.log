@@ -1,0 +1,12 @@
+CRITICAL - 2022-01-04 16:47:53 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\bengkelin\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\bengkelin\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-01-04 17:13:15 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\bengkelin\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\bengkelin\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\bengkelin\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
